@@ -169,24 +169,24 @@ const projects = [
     source_code_link: "https://github.com/bilal-tunchie/Lecria-pizza-app",
     live_link: "https://leceriapizza.netlify.app/",
   },
-  {
-    name: "My Resume - Sourabh Kumhar",
-    description:
-      "Web application, created to showcase my personal details, skills and projects. It is my Web Resume and you can also dowload my pdf of resume.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-    ],
-    image: myresumesite,
-    source_code_link: "https://github.com/sourabhkumhar/myResume",
-    live_link: "https://sourabhkumhar.vercel.app",
-  },
+  // {
+  //   name: "My Resume - Sourabh Kumhar",
+  //   description:
+  //     "Web application, created to showcase my personal details, skills and projects. It is my Web Resume and you can also dowload my pdf of resume.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: myresumesite,
+  //   source_code_link: "https://github.com/sourabhkumhar/myResume",
+  //   live_link: "https://sourabhkumhar.vercel.app",
+  // },
   {
     name: "Bilal Mohamed - Portfolio",
     description:
@@ -202,8 +202,8 @@ const projects = [
       },
     ],
     image: portfolioProject,
-    source_code_link: "https://github.com/sourabhkumhar/iNotebook",
-    live_link: "https://inotebook-coral.vercel.app/",
+    source_code_link: "https://github.com/bilal-tunchie/Bilal-Portfolio",
+    live_link: "https://bilal-tunchie-portfolio.netlify.app",
   },
 ];
 
