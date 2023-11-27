@@ -11,7 +11,6 @@ import Image from "next/image";
 
 const Contact = () => {
   
-
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-1 lg:gap-20 xl:items-center overflow-hidden">
       <motion.div
