@@ -6,11 +6,14 @@ import {
   javascript,
   next,
   html,
+  typescript,
+  mysql,
   css,
   bootstrap,
   reactjs,
   redux,
   tailwind,
+  prisma,
   nodejs,
   mongodb,
   indivue,
@@ -19,6 +22,7 @@ import {
   portfolioProject,
   linkedin,
   twitter,
+  outlook,
   githubIcon,
 } from "../assets";
 
@@ -74,6 +78,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "MySql",
+    icon: mysql,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -94,6 +106,10 @@ const technologies = [
     icon: bootstrap,
   },
   {
+    name: "Prisma",
+    icon: prisma,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -105,16 +121,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "React/Next Developer",
     company_name: "DRMTE Co.",
     icon: indivue,
     iconBg: "#383E56",
-    date: "October 2022 - Present",
+    date: "January 2023 - Present",
     points: [
-      "Developing and maintaining frontend of web applications using React.js and MUI and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designing components, pages, responsive web designs and creating reusable components like buttons, inputs, alerts etc.",
+      "Collaborated with UX/UI designers and back-end developers to implement web performance optimization techniques to ensure fast page load times..",
+      "Enabling seamless integration of external data into websites and building RESTful APIs using Next 14^.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with version control systems such as Git to manage codebase."
     ],
   },
 ];
@@ -148,6 +165,70 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Admin (Manage products for e-commerce)",
+    description:
+      "A fully functional E-Commerce with Admin Dashboard with seamless navigation and user experience. And it also has some working functionalities like login, signup, reset password, change account deta…",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-gradient",
+      },
+      {
+        name: "tailwind",
+          color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Webhook Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "black-gradient",
+      },
+    ],
+    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/v1700647236/zu8zgalerj4odoece7zl.jpg",
+    source_code_link: "https://github.com/bilal-tunchie/Ecommerce-Admin",
+    live_link: "https://ecommerce-admin-vert-xi.vercel.app",
+  },
+  {
+    name: "Ecommerce (Managed by Admin )",
+    description:
+      "A fully functional E-Commerce which shows the billboards, categories, colors, sizes, products and orders all handled by Admin Dashboard with seamless navigation and user experience.",
+    tags: [
+        {
+          name: "next.js",
+          color: "black-gradient",
+        },
+      {
+        name: "tailwind",
+          color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/rhgua0fhxlgokblnnxkk.jpg",
+    source_code_link: "https://github.com/bilal-tunchie/Ecommerce-store-by-admin",
+    live_link: "https://ecommerce-store-by-admin.vercel.app",
+  },
+  {
     name: "Leceria Pizza",
     description:
       "This site is a pizza restaurant app created using Next Js and Tailwind Css. And it has the ability to add and edit products on the go using next js, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe for payments.",
@@ -169,24 +250,6 @@ const projects = [
     source_code_link: "https://github.com/bilal-tunchie/Lecria-pizza-app",
     live_link: "https://leceriapizza.netlify.app/",
   },
-  // {
-  //   name: "My Resume - Sourabh Kumhar",
-  //   description:
-  //     "Web application, created to showcase my personal details, skills and projects. It is my Web Resume and you can also dowload my pdf of resume.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: myresumesite,
-  //   source_code_link: "https://github.com/sourabhkumhar/myResume",
-  //   live_link: "https://sourabhkumhar.vercel.app",
-  // },
   {
     name: "Bilal Mohamed - Portfolio",
     description:
@@ -219,9 +282,9 @@ const contacts = [
     icon: githubIcon,
   },
   {
-    name: "twitter",
-    source_link: "https://twitter.com/bilal_tunchie",
-    icon: twitter,
+    name: "outlook",
+    source_link: "mailto:bilalmohammed_tunchie@outlook.com",
+    icon: outlook,
   },
 ]
 

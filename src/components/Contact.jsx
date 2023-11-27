@@ -13,7 +13,7 @@ const Contact = () => {
   
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-20 xl:items-center overflow-hidden">
+    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-1 lg:gap-20 xl:items-center overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 py-8 rounded-2xl overflow-hidden max-h-[260px]"
@@ -21,7 +21,7 @@ const Contact = () => {
         <p className={`${styles.sectionSubText} px-8`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText} px-8`}>Contact.</h3>
 
-        <div className="flex justify-center gap-x-2 bg-white h-full pt-10 px-8 rounded-2xl">
+        <div className="flex justify-center gap-x-3 bg-white h-full pt-10 px-8 rounded-2xl">
           {contacts.map( ({name, source_link, icon}) =>  (
             <div
               key={source_link}
@@ -31,7 +31,7 @@ const Contact = () => {
             <Image draggable={false}
               src={icon}
               alt={name}
-              className={`${name !== "github" && "sm:w-[58px] sm:h-[58px] sm:translate-y-[-5px]"} ${name === "github" && "w-[40px] h-[40px] translate-y-[5px]"}`}
+              className={`${name !== "github" && "sm:w-[58px] max-w-[50px] sm:h-[58px] sm:translate-y-[-5px]"} ${name === "github" && "w-[40px] h-[40px] translate-y-[5px]"}`}
             />
           </div>))}
         </div>

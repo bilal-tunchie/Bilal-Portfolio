@@ -110,6 +110,63 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.hirebutton {
+  --color: #915eff;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+}
+
+.hirebutton::before,
+.hirebutton::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.hirebutton::before {
+  top: -1em;
+  left: -1em;
+}
+
+.hirebutton::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.hirebutton:hover::before,
+.hirebutton:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.hirebutton:hover {
+  color: rgb(10, 25, 30);
+}
+
+.hirebutton:active {
+  filter: brightness(.8);
+}
+
+
 @keyframes cursor-blink {
   0% {
     opacity: 0;
@@ -117,12 +174,12 @@ html {
 }
 
 .blinking-cursor {
-  @apply  animate-[cursor-blink_1.1s_steps(2)_infinite];
+  @apply animate-[cursor-blink_1.1s_steps(2)_infinite];
   background: #915eff;
 }
 
 .contactButton {
-  @apply text-[white] text-[17px] font-medium tracking-wider flex items-center shadow-[inset_0_0_1.6em_-0.6em_#714da6] overflow-hidden relative h-[2.8em] mt-[30px] pl-[1.0em] pr-[3em] p-[0.45em] rounded-[0.9em] border-[none] hover:translate-x-[-0.05em] hover:translate-y-[-0.05em] hover:shadow-[0.15em_0.15em_#5566c2] active:translate-x-[0.05em] active:translate-y-[0.05em] active:shadow-[0.05em_0.05em_#5566c2] w-fit cursor-pointer;
+  @apply text-[white] text-[17px] font-medium tracking-wider flex items-center shadow-[inset_0_0_1.6em_-0.6em_#714da6] overflow-hidden relative h-[2.8em] pl-[1.0em] pr-[3em] p-[0.45em] rounded-[0.9em] border-[none] hover:translate-x-[-0.05em] hover:translate-y-[-0.05em] hover:shadow-[0.15em_0.15em_#5566c2] active:translate-x-[0.05em] active:translate-y-[0.05em] active:shadow-[0.05em_0.05em_#5566c2] w-fit cursor-pointer;
   background: #804dee;
   font-family: inherit;
 }
@@ -145,8 +202,8 @@ html {
   width: 100%;
   height: 8px;
   background: linear-gradient(to top,
-  #ec008c,
-  #fc6767);
+      #ec008c,
+      #fc6767);
   z-index: 1;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
   border-bottom-left-radius: 1rem;

@@ -3,6 +3,16 @@
  */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        // port: '',
+        // pathname: '/account123/**',
+      },
+    ],
+  },
   /* config options here */
 };
 

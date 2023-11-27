@@ -21,6 +21,9 @@ import reactjs from "./tech/reactjs.svg";
 import next from "./tech/next.svg";
 import bootstrap from "./tech/bootstrap.svg";
 import tailwind from "./tech/tailwind.svg";
+import prisma from "./tech/prisma.svg";
+import typescript from "./tech/typescript.png";
+import mysql from "./tech/mysql.png";
 // import redux from "./tech/redux.png";
 
 // import meta from "./company/meta.png";
@@ -35,6 +38,7 @@ import portfolioProject from "./portfolioProject.png";
 import linkedin from "./contact/linkedin.svg";
 import githubIcon from "./contact/githubIcon.png";
 import twitter from "./contact/twitter.png";
+import outlook from "./contact/outlook.png";
 import contactBg from "./contact/contactBg.jpg";
 
 export {
@@ -48,6 +52,7 @@ export {
   menu,
   close,
   css,
+  prisma,
   // docker,
   // figma,
   // git,
@@ -60,6 +65,8 @@ export {
   // redux,
   tailwind,
   next,
+  typescript,
+  mysql,
   // meta,
   // shopify,
   indivue,
@@ -70,6 +77,7 @@ export {
   linkedin,
   githubIcon,
   twitter,
+  outlook,
   contactBg,
   link,
 };
