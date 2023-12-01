@@ -37,7 +37,7 @@ const Hero = ({ isMobile }) => {
           <p className={`${styles.heroSubText} mt-2 text-white`}>
             Frontend Developer
           </p>
-          <div className="flex gap-x-10 items-center mt-8">
+          <div className="flex gap-x-10 items-center mt-4">
             <Link 
               href="https://onedrive.live.com/?authkey=%21AJUkbkwx2aRnR88&id=FEA6A48BA7214AF8%212041&cid=FEA6A48BA7214AF8&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp" 
               target="/blank">
