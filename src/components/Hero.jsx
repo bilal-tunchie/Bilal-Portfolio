@@ -34,7 +34,7 @@ const Hero = ({ isMobile }) => {
           <div className={styles.heroHeadText}>
             Hi, {`I'm`} <span className="text-[#915eff]">Bilal <small className="blinking-cursor w-[13px]">|</small></span>
           </div>
-          <p className={`${styles.heroSubText} mt-2 text-white text-2xl`}>
+          <p className={`${styles.heroSubText} mt-2 text-white`}>
             Frontend Developer
           </p>
           <div className="flex gap-x-10 items-center mt-8">
