@@ -165,6 +165,104 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Traveller",
+    description:
+      "Traveller is an online marketplace that connects people who want to rent out their property with people who are looking for accommodations, typically for short stays.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-gradient",
+      },
+      {
+        name: "tailwind",
+          color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "black-gradient",
+      },
+    ],
+    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/v1700647236/bvrmjxlgejdo6xdeqpor.jpg",
+    source_code_link: "https://github.com/bilal-tunchie/Traveller",
+    live_link: "https://traveller-jet.vercel.app",
+  },
+  {
+    name: "Bello",
+    description:
+      "Bello is a Saas platform that helps teams to manage their notes and much more.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-gradient",
+      },
+      {
+        name: "tailwind",
+          color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "black-gradient",
+      },
+    ],
+    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/v1700647236/zaj7k2tx5lc1lukthnxi.jpg",
+    source_code_link: "https://github.com/bilal-tunchie/Bello",
+    live_link: "https://bello-drab.vercel.app",
+  },
+  {
+    name: "Leceria Pizza",
+    description:
+      "Building most modern pizza restaurant website. The application will include modern and responsive design , the ability to add and edit products on the go, all advanced cart, checkout functionalities and most importantly, complete integration with Stripe for payments and webhook on payment completion.",
+      tags: [
+        {
+          name: "next.js",
+          color: "black-gradient",
+        },
+        {
+          name: "tailwind",
+            color: "pink-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Webhook Stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySql",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "black-gradient",
+        },
+      ],
+    image: leceria,
+    source_code_link: "https://github.com/bilal-tunchie/Pizza-restaurant-website",
+    live_link: "https://leceria-pizza.vercel.app/",
+  },
+  {
     name: "Admin (Manage products for e-commerce)",
     description:
       "A fully functional E-Commerce with Admin Dashboard with seamless navigation and user experience. And it also has some working functionalities like login, signup, reset password, change account deta…",
@@ -227,28 +325,6 @@ const projects = [
     image: "https://res.cloudinary.com/dqm9t55ik/image/upload/rhgua0fhxlgokblnnxkk.jpg",
     source_code_link: "https://github.com/bilal-tunchie/Ecommerce-store-by-admin",
     live_link: "https://ecommerce-store-by-admin.vercel.app",
-  },
-  {
-    name: "Leceria Pizza",
-    description:
-      "This site is a pizza restaurant app created using Next Js and Tailwind Css. And it has the ability to add and edit products on the go using next js, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe for payments.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leceria,
-    source_code_link: "https://github.com/bilal-tunchie/Lecria-pizza-app",
-    live_link: "https://leceriapizza.netlify.app/",
   },
   {
     name: "Bilal Mohamed - Portfolio",
