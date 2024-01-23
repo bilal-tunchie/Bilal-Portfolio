@@ -24,7 +24,7 @@ const ProjectCard = ({
         transitionSpeed={450}
         tiltMaxAngleX={20}
         tiltMaxAngleY={20}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="md:relative bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full md:h-[600px]"
       >
         <div className="relative w-full h-[230px]">
           <Image draggable={false}
@@ -67,7 +67,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="md:absolute md:bottom-5 md:left-5 mt-6 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
