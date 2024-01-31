@@ -224,7 +224,7 @@ const projects = [
         color: "black-gradient",
       },
     ],
-    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/v1700647236/zaj7k2tx5lc1lukthnxi.jpg",
+    image: "https://res.cloudinary.com/dqm9t55ik/image/upload/v1700647236/ssh6tgqndifcydgcfxyb.jpg",
     source_code_link: "https://github.com/bilal-tunchie/Bello",
     live_link: "https://bello-drab.vercel.app",
   },
